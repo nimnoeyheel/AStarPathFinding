@@ -25,8 +25,8 @@ void Goal::Update(float deltaTime)
 		auto map = refLevel->GetMap();
 
 		// Å¬¸¯ÇÑ À§Ä¡°¡ ¸ÊÀ» ¹ş¾î³µÀ» °æ¿ì ¸®ÅÏ
-		if (newPosition.y > map.size()
-			|| newPosition.x > map[0].size())
+		if (newPosition.y >= map.size()
+			|| newPosition.x >= map[0].size())
 		{
 			return;
 		}
@@ -43,7 +43,7 @@ void Goal::Update(float deltaTime)
 			position = newPosition;
 			map[position.y][position.x] = this;
 
-			refLevel->FindPath();
+			//refLevel->FindPath();
 		}
 		else return;
 	}

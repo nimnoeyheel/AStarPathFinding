@@ -72,7 +72,6 @@ std::vector<Node*> AStar::FindPath(Node* startNode, Node* goalNode, const std::v
 			if (*openList[ix] == *currentNode)
 			{
 				openList.erase(openList.begin() + ix);
-				SafeDelete(currentNode);
 				break;
 			}
 		}

@@ -19,13 +19,13 @@ public:
 	void ParseMap(const std::string& fileName);
     std::vector<std::vector<Actor*>> GetMap() { return map; }
 
+	void ClearPreviousPath();
 	void FindPath();
 
 private:
 	std::vector<std::vector<Actor*>> map;
 	class Start* start = nullptr;
 	class Goal* goal = nullptr;
-	class AStar* astar = nullptr;
 
 	std::vector<Node*> path;
 	float lastUpdateTime;

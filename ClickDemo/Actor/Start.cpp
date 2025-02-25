@@ -38,6 +38,8 @@ void Start::Update(float deltaTime)
 			position = newPosition;
 			map[position.y][position.x] = this;
 
+			// 기존 경로 삭제 후 경로 찾기
+			refLevel->ClearPreviousPath();
 			refLevel->FindPath();
 		}
 		else return;

@@ -11,7 +11,7 @@
 #include "Actor/Path.h"
 
 DemoLevel::DemoLevel()
-	: /*astar(new AStar(this)),*/ lastUpdateTime(0.0f), pathIndex(0), drawTimer(0.25f)
+	: lastUpdateTime(0.0f), pathIndex(0), drawTimer(0.25f)
 {
 	// 맵 파일 불러오기
 	ParseMap("../Assets/Map2.txt");
@@ -80,7 +80,7 @@ void DemoLevel::Update(float deltaTime)
 	{
 		drawTimer.Reset();
 
-		if (pathIndex < path.size())
+		if (pathIndex < (int)path.size()-1)
 		{
 			// 노드 한개씩 가져오기
 			Node* currentNode = path[pathIndex];
@@ -126,14 +126,41 @@ void DemoLevel::Draw()
 	}
 }
 
+void DemoLevel::ClearPreviousPath()
+{
+	// 기존 Path를 모두 Ground로 변경
+	for (int y = 0; y < (int)map.size(); ++y)
+	{
+		for (int x = 0; x < (int)map[0].size(); ++x)
+		{
+			if (dynamic_cast<Path*>(map[y][x]))
+			{
+				//delete map[y][x]; // 메모리 해제
+				map[y][x] = new Ground(Vector2(x, y)); // Ground로 변경
+			}
+		}
+	}
+}
+
 void DemoLevel::FindPath()
 {
 	if (!start || !goal) return;
+
+	// 기존 경로 삭제
+	//ClearPreviousPath();
+
+	// 기존 경로를 저장 (path의 마지막 점을 새 출발점으로 설정)
+	Node* lastPathNode = nullptr;
+	if (!path.empty())
+	{
+		lastPathNode = path.back(); // 마지막으로 Draw된 노드
+	}
 
 	// 그리드 생성
 	int mapY = (int)map.size();
 	int mapX = (int)map[0].size();
 	std::vector<std::vector<int>> grid(mapY, std::vector<int>(mapX, 0));
+
 	for (int y = 0; y < mapY; ++y)
 	{
 		for (int x = 0; x < mapX; ++x)
@@ -147,10 +174,18 @@ void DemoLevel::FindPath()
 
 	// A* 알고리즘 실행
 	AStar* astar = new AStar();
-	Node startNode(start->Position());
+	
+	// 새로운 출발점을 기존 경로의 마지막 노드로 설정
+	Node startNode = lastPathNode ? *lastPathNode : Node(start->Position());
+	//Node startNode(start->Position());
 	Node goalNode(goal->Position());
 
 	path = astar->FindPath(&startNode, &goalNode, grid);
+
+	//std::vector<Node*> newPath = astar->FindPath(&startNode, &goalNode, grid);
+
+	// 기존 path에 새로운 경로를 추가
+	//path.insert(path.end(), newPath.begin(), newPath.end());
 
 	// 초기 경로 인덱스 설정
 	pathIndex = 0;
