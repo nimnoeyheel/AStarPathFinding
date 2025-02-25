@@ -24,6 +24,8 @@ public:
 		return position == other.position;
 	}
 
+	Vector2 Position() const { return position; }
+
 private:
 	Vector2 position;
 	Node* parent = nullptr;

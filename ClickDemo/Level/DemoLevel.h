@@ -2,7 +2,9 @@
 
 #include "Level/Level.h"
 #include <vector>
+#include "../Engine/Engine/Timer.h"
 
+class Node;
 class DemoLevel : public Level
 {
 	// RTTI Á¤ÀÇ.
@@ -14,9 +16,19 @@ public:
 	virtual void Update(float deltaTime) override;
 	virtual void Draw() override;
 
-	bool ParseMap(const std::string& fileName);
+	void ParseMap(const std::string& fileName);
+    std::vector<std::vector<Actor*>> GetMap() { return map; }
+
+	void FindPath();
 
 private:
 	std::vector<std::vector<Actor*>> map;
+	class Start* start = nullptr;
+	class Goal* goal = nullptr;
+	class AStar* astar = nullptr;
 
+	std::vector<Node*> path;
+	float lastUpdateTime;
+	int pathIndex;
+	Timer drawTimer;
 };

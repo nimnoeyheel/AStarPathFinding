@@ -3,14 +3,14 @@ c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\vc143.idb
 c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\main.obj
 c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\demolevel.obj
 c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\astar.obj
-c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\start.obj
-c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\goal.obj
 c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\wall.obj
+c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\start.obj
 c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\ground.obj
+c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\goal.obj
+c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\path.obj
 c:\workspace\astarpathfinding\bin\x64\debug\clickdemo\clickdemo.exe
 c:\workspace\astarpathfinding\bin\x64\debug\clickdemo\clickdemo.pdb
 c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\clickdemo.ilk
-c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\player.obj
 c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\clickdemo.vcxproj.filelistabsolute.txt
 c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\clickdemo.tlog\cl.command.1.tlog
 c:\workspace\astarpathfinding\intermediate\x64\debug\clickdemo\clickdemo.tlog\cl.items.tlog

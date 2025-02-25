@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Workspace\\AStarPathFinding\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|C:\\Workspace\\AStarPathFinding\\Engine\\Actor\\DrawableActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Actor\\DrawableActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Engine\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Start.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Start.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Algorithm\\AStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Algorithm\\AStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -31,32 +15,72 @@
       "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Goal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Goal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Goal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Timer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Engine\\Timer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Ground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Ground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Level\\DemoLevel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Wall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Wall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Start.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Algorithm\\AStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Algorithm\\AStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Engine\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Algorithm\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Algorithm\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Path.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Path.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Start.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Start.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Path.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Path.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Ground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Ground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Wall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Wall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67A539CB-D19F-45FF-B3D7-3F812DD53508}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Engine\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Wall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Wall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Level\\DemoLevel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Goal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43C9563C-D185-4B35-AE11-DA1AC2D1B068}|ClickDemo\\ClickDemo.vcxproj|solutionrelative:ClickDemo\\Actor\\Goal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 89,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,46 +98,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DrawableActor.cpp",
-              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\Engine\\Actor\\DrawableActor.cpp",
-              "RelativeDocumentMoniker": "Engine\\Actor\\DrawableActor.cpp",
-              "ToolTip": "C:\\Workspace\\AStarPathFinding\\Engine\\Actor\\DrawableActor.cpp",
-              "RelativeToolTip": "Engine\\Actor\\DrawableActor.cpp",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAEwBgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Timer.cpp",
+              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Timer.cpp",
+              "RelativeDocumentMoniker": "Engine\\Engine\\Timer.cpp",
+              "ToolTip": "C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Timer.cpp",
+              "RelativeToolTip": "Engine\\Engine\\Timer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-24T08:44:51.625Z",
+              "WhenOpened": "2025-02-25T06:44:48.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Timer.h",
+              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Timer.h",
+              "RelativeDocumentMoniker": "Engine\\Engine\\Timer.h",
+              "ToolTip": "C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Timer.h",
+              "RelativeToolTip": "Engine\\Engine\\Timer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-25T06:44:43.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AStar.cpp",
+              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Algorithm\\AStar.cpp",
+              "RelativeDocumentMoniker": "ClickDemo\\Algorithm\\AStar.cpp",
+              "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Algorithm\\AStar.cpp",
+              "RelativeToolTip": "ClickDemo\\Algorithm\\AStar.cpp",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAnwEcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-25T02:22:52.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AStar.h",
+              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Algorithm\\AStar.h",
+              "RelativeDocumentMoniker": "ClickDemo\\Algorithm\\AStar.h",
+              "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Algorithm\\AStar.h",
+              "RelativeToolTip": "ClickDemo\\Algorithm\\AStar.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-25T02:22:51.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Node.h",
+              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Algorithm\\Node.h",
+              "RelativeDocumentMoniker": "ClickDemo\\Algorithm\\Node.h",
+              "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Algorithm\\Node.h",
+              "RelativeToolTip": "ClickDemo\\Algorithm\\Node.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-25T02:22:49.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Engine.h",
-              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Engine.h",
-              "RelativeDocumentMoniker": "Engine\\Engine\\Engine.h",
-              "ToolTip": "C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Engine.h",
-              "RelativeToolTip": "Engine\\Engine\\Engine.h",
-              "ViewState": "AgIAABMAAAAAAAAAAAApwCgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-24T08:44:49.492Z",
+              "Title": "DemoLevel.cpp",
+              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.cpp",
+              "RelativeDocumentMoniker": "ClickDemo\\Level\\DemoLevel.cpp",
+              "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.cpp",
+              "RelativeToolTip": "ClickDemo\\Level\\DemoLevel.cpp",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAjwJgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-25T00:12:22.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "DemoLevel.h",
+              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.h",
+              "RelativeDocumentMoniker": "ClickDemo\\Level\\DemoLevel.h",
+              "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.h",
+              "RelativeToolTip": "ClickDemo\\Level\\DemoLevel.h",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-24T05:39:10.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Engine.cpp",
               "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Engine.cpp",
               "RelativeDocumentMoniker": "Engine\\Engine\\Engine.cpp",
               "ToolTip": "C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Engine.cpp",
               "RelativeToolTip": "Engine\\Engine\\Engine.cpp",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAEwL0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAEwLoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-24T08:44:43.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
+              "Title": "Engine.h",
+              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Engine.h",
+              "RelativeDocumentMoniker": "Engine\\Engine\\Engine.h",
+              "ToolTip": "C:\\Workspace\\AStarPathFinding\\Engine\\Engine\\Engine.h",
+              "RelativeToolTip": "Engine\\Engine\\Engine.h",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAjwGYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-24T08:44:49.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Ground.cpp",
               "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Ground.cpp",
               "RelativeDocumentMoniker": "ClickDemo\\Actor\\Ground.cpp",
@@ -126,33 +228,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Ground.h",
               "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Ground.h",
               "RelativeDocumentMoniker": "ClickDemo\\Actor\\Ground.h",
               "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Ground.h",
               "RelativeToolTip": "ClickDemo\\Actor\\Ground.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-24T06:58:41.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
+              "Title": "Path.cpp",
+              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Path.cpp",
+              "RelativeDocumentMoniker": "ClickDemo\\Actor\\Path.cpp",
+              "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Path.cpp",
+              "RelativeToolTip": "ClickDemo\\Actor\\Path.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-25T03:17:08.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Path.h",
+              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Path.h",
+              "RelativeDocumentMoniker": "ClickDemo\\Actor\\Path.h",
+              "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Path.h",
+              "RelativeToolTip": "ClickDemo\\Actor\\Path.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-25T03:16:38.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Wall.cpp",
               "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Wall.cpp",
               "RelativeDocumentMoniker": "ClickDemo\\Actor\\Wall.cpp",
               "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Wall.cpp",
               "RelativeToolTip": "ClickDemo\\Actor\\Wall.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-24T06:54:08.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Wall.h",
               "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Wall.h",
               "RelativeDocumentMoniker": "ClickDemo\\Actor\\Wall.h",
@@ -165,91 +293,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Start.cpp",
               "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Start.cpp",
               "RelativeDocumentMoniker": "ClickDemo\\Actor\\Start.cpp",
               "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Start.cpp",
               "RelativeToolTip": "ClickDemo\\Actor\\Start.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-24T06:52:25.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Start.h",
               "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Start.h",
               "RelativeDocumentMoniker": "ClickDemo\\Actor\\Start.h",
               "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Start.h",
               "RelativeToolTip": "ClickDemo\\Actor\\Start.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-24T06:50:24.993Z",
+              "WhenOpened": "2025-02-25T00:59:34.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Goal.cpp",
               "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Goal.cpp",
               "RelativeDocumentMoniker": "ClickDemo\\Actor\\Goal.cpp",
               "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Goal.cpp",
               "RelativeToolTip": "ClickDemo\\Actor\\Goal.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwC0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-24T06:50:45.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "Goal.h",
               "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Goal.h",
               "RelativeDocumentMoniker": "ClickDemo\\Actor\\Goal.h",
               "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Actor\\Goal.h",
               "RelativeToolTip": "ClickDemo\\Actor\\Goal.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-24T06:50:44.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DemoLevel.cpp",
-              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.cpp",
-              "RelativeDocumentMoniker": "ClickDemo\\Level\\DemoLevel.cpp",
-              "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.cpp",
-              "RelativeToolTip": "ClickDemo\\Level\\DemoLevel.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-24T05:39:05.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DemoLevel.h",
-              "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.h",
-              "RelativeDocumentMoniker": "ClickDemo\\Level\\DemoLevel.h",
-              "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Level\\DemoLevel.h",
-              "RelativeToolTip": "ClickDemo\\Level\\DemoLevel.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-24T05:39:10.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Main.cpp",
               "RelativeDocumentMoniker": "ClickDemo\\Main.cpp",
               "ToolTip": "C:\\Workspace\\AStarPathFinding\\ClickDemo\\Main.cpp",
               "RelativeToolTip": "ClickDemo\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-24T05:38:51.584Z",
               "EditorCaption": ""

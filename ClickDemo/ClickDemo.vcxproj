@@ -186,6 +186,7 @@
   <ItemGroup>
     <ClCompile Include="Actor\Goal.cpp" />
     <ClCompile Include="Actor\Ground.cpp" />
+    <ClCompile Include="Actor\Path.cpp" />
     <ClCompile Include="Actor\Start.cpp" />
     <ClCompile Include="Actor\Wall.cpp" />
     <ClCompile Include="Algorithm\AStar.cpp" />
@@ -195,6 +196,7 @@
   <ItemGroup>
     <ClInclude Include="Actor\Goal.h" />
     <ClInclude Include="Actor\Ground.h" />
+    <ClInclude Include="Actor\Path.h" />
     <ClInclude Include="Actor\Start.h" />
     <ClInclude Include="Actor\Wall.h" />
     <ClInclude Include="Algorithm\AStar.h" />

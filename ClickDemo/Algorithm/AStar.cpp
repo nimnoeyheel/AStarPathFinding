@@ -1,6 +1,7 @@
 #include "AStar.h"
 #include "Node.h"
 #include "Math/Vector2.h"
+#include "Actor/Path.h"
 
 #include <iostream>
 
@@ -71,27 +72,29 @@ std::vector<Node*> AStar::FindPath(Node* startNode, Node* goalNode, const std::v
 			if (*openList[ix] == *currentNode)
 			{
 				openList.erase(openList.begin() + ix);
+				SafeDelete(currentNode);
 				break;
 			}
 		}
 
-		// 방문 처리를 위해 현재 노드를 닫힌 리스트에 추가.
-		// 이미 닫힌 노드에 있는 노드인지 확인 후에 없으면 추가.
-		bool isNodeInList = false;
-		for (Node* node : closedList)
-		{
-			if (*node == *currentNode)
-			{
-				isNodeInList = true;
-				break;
-			}
-		}
+		//// 방문 처리를 위해 현재 노드를 닫힌 리스트에 추가.
+		//// 이미 닫힌 노드에 있는 노드인지 확인 후에 없으면 추가.
+		//bool isNodeInList = false;
+		//for (Node* node : closedList)
+		//{
+		//	if (*node == *currentNode)
+		//	{
+		//		isNodeInList = true;
+		//		break;
+		//	}
+		//}
 
-		if (isNodeInList)
-		{
-			continue;
-		}
+		//if (isNodeInList)
+		//{
+		//	continue;
+		//}
 
+		// 없으면 닫힌 리스트에 추가
 		closedList.emplace_back(currentNode);
 
 		// 이웃 노드 방문(탐색). (하/상/우/좌 차례로 방문).
@@ -141,8 +144,7 @@ std::vector<Node*> AStar::FindPath(Node* startNode, Node* goalNode, const std::v
 			// 이웃 노드가 열린 리스트에 있다면, gCost와 fCost를 비교해 더 나은 경우에 열린 리스트에 추가.
 			if (openListNode == nullptr
 				|| neighborNode->fCost < openListNode->fCost
-				|| neighborNode->gCost < openListNode->gCost
-				&& neighborNode->fCost <= openListNode->fCost)
+				|| neighborNode->gCost < openListNode->gCost)
 			{
 				openList.emplace_back(neighborNode);
 			}
@@ -153,7 +155,7 @@ std::vector<Node*> AStar::FindPath(Node* startNode, Node* goalNode, const std::v
 		}
 	}
 
-	return {};
+	return std::vector<Node*>();
 }
 
 std::vector<Node*> AStar::ConstructPath(Node* goalNode)
@@ -161,8 +163,10 @@ std::vector<Node*> AStar::ConstructPath(Node* goalNode)
 	// 목표 노드 부터, 부모 노드를 따라 역추적하면서 경로 노드 설정.
 	std::vector<Node*> path;
 	Node* currentNode = goalNode;
-	while (currentNode != nullptr)
+	while (currentNode)
 	{
+		if (currentNode->parent == nullptr) break;
+
 		path.emplace_back(currentNode);
 		currentNode = currentNode->parent;
 	}
@@ -243,9 +247,10 @@ bool AStar::IsDestination(Node* node)
 	return *node == *goalNode;
 }
 
+/*
 void AStar::DisplayGridWithPath(std::vector<std::vector<int>>& grid, const std::vector<Node*>& path)
 {
-	for (const Node* node : path)
+	/ *for (const Node* node : path)
 	{
 		// 경로는 '2'로 표시.
 		grid[node->position.y][node->position.x] = 2;
@@ -264,16 +269,16 @@ void AStar::DisplayGridWithPath(std::vector<std::vector<int>>& grid, const std::
 			// 경로.
 			else if (grid[y][x] == 2)
 			{
-				std::cout << "* ";
+				std::cout << "*";
 			}
 
 			// 빈 공간.
 			else if (grid[y][x] == 0)
 			{
 				std::cout << "0 ";
-			}
+			
 		}
 
 		std::cout << "\n";
-	}
-}
+	}* /
+}*/

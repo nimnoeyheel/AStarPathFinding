@@ -27,7 +27,7 @@ public:
 	std::vector<Node*> FindPath(Node* startNode, Node* goalNode, const std::vector<std::vector<int>>& grid);
 
 	// 그리드 출력 함수.
-	void DisplayGridWithPath(std::vector<std::vector<int>>& grid, const std::vector<Node*>& path);
+	//void DisplayGridWithPath(std::vector<std::vector<int>>& grid, const std::vector<Node*>& path);
 
 private:
 	// 탐색을 마친 후 최적 경로를 반환하는 함수.
