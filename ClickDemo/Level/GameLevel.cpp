@@ -78,14 +78,14 @@ void GameLevel::Update(float deltaTime)
 		goal->Update(deltaTime);
 	}
 
-	// 게임 종료 레벨
+	// 게임 종료
 	if (goal->IsClear())
 	{
-		Engine::Get().LoadLevel(new MenuLevel("게임 클리어!!"));
+		Engine::Get().LoadLevel(new MenuLevel("Game Clear!!"));
 	}
 	else if (goal->IsOver())
 	{
-		Engine::Get().LoadLevel(new MenuLevel("게임 오버!!"));
+		Engine::Get().LoadLevel(new MenuLevel("Game Over!!"));
 	}
 
 	// Goal 위치가 갱신된 후, pathIndex의 마지막 부분에서부터 다시 탐색 시작
@@ -171,7 +171,8 @@ void GameLevel::FindPath()
 	{
 		for (int x = 0; x < mapX; ++x)
 		{
-			if (dynamic_cast<Wall*>(map[y][x]))
+			if (dynamic_cast<Wall*>(map[y][x]) 
+				|| dynamic_cast<Clear*>(map[y][x]))
 			{
 				grid[y][x] = 1; // 장애물
 			}
@@ -187,6 +188,10 @@ void GameLevel::FindPath()
 	if (goal->IsResetGoal() && !path.empty())
 	{
 		goal->ResetGoalFlag();
+
+		// path가 비어 있거나 pathIndex가 0보다 작다면 
+		// trimmedPath를 만들지 않도록 리턴
+		if (path.empty() || pathIndex <= 0) return;
 
 		// 기준 경로의 현재 진행 중인 부분을 유지
 		std::vector<Node*> trimmedPath(path.begin(), path.begin() + pathIndex);
@@ -211,9 +216,8 @@ void GameLevel::FindPath()
 
 		// 기존 경로 삭제
 		ClearPreviousPath();
-		path = astar->FindPath(&startNode, &goalNode, grid);
 
-		// 초기 경로 인덱스 설정
-		pathIndex = 0;
+		path = astar->FindPath(&startNode, &goalNode, grid);
+		pathIndex = 0; // 초기 경로 인덱스 설정
 	}
 }

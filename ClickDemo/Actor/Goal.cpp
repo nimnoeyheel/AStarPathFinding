@@ -65,7 +65,6 @@ void Goal::Update(float deltaTime)
 	{
 		bIsClear = true;
 	}
-
 }
 
 void Goal::CanMove(Vector2 newPosition)
@@ -73,7 +72,7 @@ void Goal::CanMove(Vector2 newPosition)
 	auto map = refLevel->GetMap();
 	Actor* actor = map[newPosition.y][newPosition.x];
 
-	// 이동할 위치가 맵을 벗어났거나 Ground가 아니라면 리턴
+	// 이동할 위치가 맵을 벗어났거나 Wall, Start 라면 리턴
 	if (newPosition.y >= map.size()
 		|| newPosition.x >= map[0].size()
 		|| dynamic_cast<Wall*>(actor)
