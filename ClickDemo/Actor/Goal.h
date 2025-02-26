@@ -1,17 +1,28 @@
 #pragma once
 
 #include "Actor/DrawableActor.h"
-#include "Level/DemoLevel.h"
+#include "Level/GameLevel.h"
 
 class Goal : public DrawableActor
 {
 	RTTI_DECLARATIONS(Goal, DrawableActor)
 
 public:
-	Goal(const Vector2& position, DemoLevel* level);
+	Goal(const Vector2& position, GameLevel* level);
 
 	virtual void Update(float deltaTime) override;
 
+	void CanMove(Vector2 newPosition);
+
+	bool IsResetGoal() { return bIsResetGoal; }
+	void ResetGoalFlag() { bIsResetGoal = false; }
+
+	bool IsClear() { return bIsClear; }
+	bool IsOver() { return bIsOver; }
+
 private:
-	DemoLevel* refLevel;
+	GameLevel* refLevel = nullptr;
+	bool bIsResetGoal = false;
+	bool bIsClear = false;
+	bool bIsOver = false;
 };

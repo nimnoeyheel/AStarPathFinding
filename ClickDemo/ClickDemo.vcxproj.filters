@@ -21,7 +21,7 @@
     <ClCompile Include="Algorithm\AStar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Level\DemoLevel.cpp">
+    <ClCompile Include="Level\GameLevel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Actor\Goal.cpp">
@@ -39,6 +39,12 @@
     <ClCompile Include="Actor\Path.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Actor\Clear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level\MenuLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algorithm\Node.h">
@@ -47,7 +53,7 @@
     <ClInclude Include="Algorithm\AStar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Level\DemoLevel.h">
+    <ClInclude Include="Level\GameLevel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Actor\Goal.h">
@@ -63,6 +69,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Actor\Path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor\Clear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level\MenuLevel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

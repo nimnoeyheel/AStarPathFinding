@@ -1,6 +1,7 @@
 #pragma once
 
 #include <vector>
+#include "../Engine/Engine/Timer.h"
 
 // A* 길찾기 기능을 처리하는 클래스.
 class Node;

@@ -29,7 +29,7 @@ BOOL WINAPI MessageProcessor(DWORD message)
 Engine* Engine::instance = nullptr;
 
 Engine::Engine()
-	: quit(false), mainLevel(nullptr), screenSize(40, 40)
+	: quit(false), mainLevel(nullptr), screenSize(40, 25)
 {
 	// 랜덤 시드 설정.
 	srand((unsigned int)time(nullptr));
@@ -278,13 +278,13 @@ void Engine::ProcessInput()
 			}
 			break;
 
-			//		//case WINDOW_BUFFER_SIZE_EVENT:
+			//case WINDOW_BUFFER_SIZE_EVENT:
 			//{
 			//	char buffer[100];
 			//	sprintf_s(buffer, 100, "(%d,%d)", 
 			//		record.Event.WindowBufferSizeEvent.dwSize.X, record.Event.WindowBufferSizeEvent.dwSize.Y
 			//	);
-
+			//
 			//	MessageBoxA(nullptr, buffer, "Test", MB_OK);
 			//} break;
 			}

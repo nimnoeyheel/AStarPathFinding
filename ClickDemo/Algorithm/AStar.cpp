@@ -162,10 +162,10 @@ std::vector<Node*> AStar::ConstructPath(Node* goalNode)
 	// 목표 노드 부터, 부모 노드를 따라 역추적하면서 경로 노드 설정.
 	std::vector<Node*> path;
 	Node* currentNode = goalNode;
+
 	while (currentNode)
 	{
 		if (currentNode->parent == nullptr) break;
-
 		path.emplace_back(currentNode);
 		currentNode = currentNode->parent;
 	}
@@ -202,7 +202,7 @@ bool AStar::HasVisited(int x, int y, float gCost)
 		if ((node->position.x == x && node->position.y == y))
 		{
 			// 위치가 같고, 비용이 더 크면 방문할 이유가 없기 때문에 방문했다고 판단.
-			if (gCost > node->gCost)
+			if (gCost >= node->gCost)
 			{
 				return true;
 			}
@@ -222,7 +222,7 @@ bool AStar::HasVisited(int x, int y, float gCost)
 		if ((node->position.x == x && node->position.y == y))
 		{
 			// 위치가 같고, 비용이 더 크면 방문할 이유가 없기 때문에 방문했다고 판단.
-			if (gCost > node->gCost)
+			if (gCost >= node->gCost)
 			{
 				return true;
 			}
