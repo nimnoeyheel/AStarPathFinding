@@ -1,28 +1,4 @@
 ﻿  C:\Workspace\AStarPathFinding\Engine\Core.h
-  C:\Workspace\AStarPathFinding\Engine\RTTI.h
-  C:\Workspace\AStarPathFinding\Engine\Actor\Actor.h
-  C:\Workspace\AStarPathFinding\Engine\Actor\DrawableActor.h
-  C:\Workspace\AStarPathFinding\Engine\Container\List.h
-  C:\Workspace\AStarPathFinding\Engine\Engine\Engine.h
-  C:\Workspace\AStarPathFinding\Engine\Engine\Timer.h
-  C:\Workspace\AStarPathFinding\Engine\Level\Level.h
-  C:\Workspace\AStarPathFinding\Engine\Math\Vector2.h
-  C:\Workspace\AStarPathFinding\Engine\PreCompiledHeader\PreCompiledHeader.h
-  C:\Workspace\AStarPathFinding\Engine\Render\ScreenBuffer.h
-  11개 파일이 복사되었습니다.
-  PreCompiledHeader.cpp
-  Actor.cpp
-  DrawableActor.cpp
-  Engine.cpp
-  Timer.cpp
-  Level.cpp
-  Vector2.cpp
-  Main.cpp
-  ScreenBuffer.cpp
-  코드를 생성하고 있습니다...
-     C:\Workspace\AStarPathFinding\Bin\x64\Debug\Engine\Engine.lib 라이브러리 및 C:\Workspace\AStarPathFinding\Bin\x64\Debug\Engine\Engine.exp 개체를 생성하고 있습니다.
-  Engine.vcxproj -> C:\Workspace\AStarPathFinding\Bin\x64\Debug\Engine\Engine.dll
-  C:\Workspace\AStarPathFinding\Bin\x64\Debug\Engine\Engine.dll
-  1개 파일이 복사되었습니다.
-  C:\Workspace\AStarPathFinding\Bin\x64\Debug\Engine\Engine.lib
-  1개 파일이 복사되었습니다.
+  공유 위반입니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: "xcopy C:\Workspace\AStarPathFinding\Engine\\*.h C:\Workspace\AStarPathFinding\\Includes\ /e /y
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: :VCEnd" 명령이 종료되었습니다(코드: 4).

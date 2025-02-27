@@ -14,10 +14,14 @@ public:
 
 	void CanMove(Vector2 newPosition);
 
-	bool IsResetStart() { return bIsResetStart ? true : false; }
+	bool IsResetStart() { return bIsResetStart; }
 	void ResetStartFlag() { bIsResetStart = false; }
+
+	bool IsAddEnemy() { return bIsAddEnemy; }
+	void AddEnemyFlag() { bIsAddEnemy = false; }
 
 private:
 	GameLevel* refLevel = nullptr;
 	bool bIsResetStart = true;
+	bool bIsAddEnemy = false;
 };

@@ -1,8 +1,10 @@
 #pragma once
 
 #include "Level/Level.h"
-#include <vector>
+#include "Math/Vector2.h"
 #include "../Engine/Engine/Timer.h"
+#include <vector>
+#include <map>
 
 class Node;
 class GameLevel : public Level
@@ -23,12 +25,19 @@ public:
 	void FindPath();
 	void SetRestartingPathFindingFlag(bool bIsResetGoal) { bShouldRestartPathFinding = bIsResetGoal; }
 
+	void AddEnemy(Vector2 newEnemyPos);
+	void FindPathEnemies();
+
 private:
 	std::vector<std::vector<Actor*>> map;
 	std::vector<Node*> path;
 	class Start* start = nullptr;
 	class Goal* goal = nullptr;
 	class Clear* clear = nullptr;
+
+	std::map<Start*, std::vector<Node*>> enemyPaths;
+
+	int pathsIndex = 0;
 
 	Timer drawTimer;
 	float lastUpdateTime;

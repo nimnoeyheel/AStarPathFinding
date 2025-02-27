@@ -21,7 +21,8 @@ void Start::Update(float deltaTime)
 	{
 		Vector2 newPosition = Engine::Get().MousePosition();
 
-		CanMove(newPosition);
+		bIsAddEnemy = true;
+		//CanMove(newPosition);
 	}
 }
 
